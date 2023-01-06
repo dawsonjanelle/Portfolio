@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+	<title>Canvas</title>
+	<meta charset=utf-8>
+	<link rel="stylesheet" href="style.css" />
+	<script src="canvas.js" ></script>
+</head>
+	<!--My brother helped me with the stuff inside this script tag. It redirects a person without a cookie to the login page.-->
+	<script>var cookie = document.cookie.indexOf("username"); 
+	if(cookie == -1) {
+		window.location.replace("glitter.html")
+	}</script>
+<body>
+	<div id="canvas" onclick="draw(event)">
+		<svg xmlns="http://www.w3.org/2000/svg" id="innerCanvas" width="800" height="400">
+		</svg>
+	</div>
+	<div class=toolbar>
+		<div class="tools">
+			<div onclick="setBrownRect()" id="rect1" class="shape active">Brown Rectangle</div>
+			<div onclick="setBlueRect()" id="rect2" class="shape">Blue Rectangle</div>
+			<div onclick="setGreenCircle()" id="circle1" class="shape">Green Circle</div>
+			<div onclick="setPinkCircle()" id="circle2" class="shape">Pink Circle</div>
+		</div>
+	</div>
+</body>
+
+</html>

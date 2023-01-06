@@ -1,0 +1,73 @@
+/*I used htmlcolorcodes.com to find colors I like. */
+
+body {
+	background-color: rgb(185, 222, 185);
+}
+
+img {
+	float: right;
+	width: 100%;
+}
+
+.header {
+	font-size: 30pt;
+	font-family: "Lucida Handwriting"; /*Used www.w3schools.com for the specific font*/
+	font-weight: bold; /*Used w3schools.com to remember how to do this */
+	border: solid 5px rgb(200, 226, 232);
+
+	display: inline-block;
+	background-color: white;
+
+	width: 150px;
+	height: 155px;
+}
+
+#color {
+	color: rgb(212, 101, 90);
+}
+
+#your {
+	color: rgb(212, 162, 90);
+}
+
+#world {
+	color: rgb(90, 212, 162);
+}
+
+.form {
+	background-color: rgb(200, 226, 232);
+	font-weight: bold;
+}
+
+#canvas {
+	width: 800px;
+	height: 400px;
+	background-color: gray;
+	margin: 0 auto;
+	margin-bottom: 1in;
+}
+
+.toolbar {
+	width: 100%;
+}
+
+.shape {
+	background-color: rgb(121, 204, 201);
+	color: white;
+	font-size: 24pt;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: .5in;
+	margin-right: .5in;
+	text-align: center;
+	padding: .5em;
+}
+
+.tools {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.active {
+	border: 3px solid black;
+}
