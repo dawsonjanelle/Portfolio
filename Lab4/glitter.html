@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang=en>
+
+<head>
+	<title>Fashion Fabulous - Dress Up Game</title>
+	<meta charset=utf-8 />
+	<link rel="stylesheet" href="glitter.css" />
+</head>
+
+<body>
+	<!--Fashion Fabulous Title and Curly Line at Top of Page-->
+	<div class=section>
+		<h2>Fashion Fabulous - Dress Up Game!</h2>
+	</div>
+
+
+	<!--Start of forms-->
+	<form method=POST action=glitter.cgi enctype=multipart/form-data>
+		<div class=select>
+		
+		<!--Hat-->
+		<fieldset>
+			<legend>Select Hat</legend>
+			<input name="hat" type="radio" value="Cap" id="hat1">Baseball Cap</input><br />
+			<input name="hat" type="radio" value="Beanie" id="hat2">Beanie</input><br />
+			<input name="hat" type="radio" value="Cowboy" id="hat3">Cowboy hat</input><br />
+			<input name="hat" type="radio" value="Bow" id="hat4">Bow</input><br />
+			<input name="hat" type="radio" value="None" id="hat5">None</input><br />
+		
+		</fieldset>
+
+		<!--Top-->
+		<fieldset>
+			<legend>Select Top</legend>
+			<input name="fit" type="radio" value="Blue" id="fit1">Blue Shirt</input><br />
+			<input name="fit" type="radio" value="Green" id="fit2">Green Shirt</input><br />
+			<input name="fit" type="radio" value="Purple" id="fit3">Purple Shirt</input><br />
+			<input name="fit" type="radio" value="Dress" id="fit4">Sundress</input><br />
+		</fieldset>
+
+		<!--Bottom-->
+		<fieldset>
+			<legend>Select Bottom</legend>
+			<input name="bottom" type="radio" value="Jeans" id="bottom1">Jeans</input><br />
+			<input name="bottom" type="radio" value="Shorts" id="bottom2">Shorts</input><br />
+			<input name="bottom" type="radio" value="Leggings" id="bottom3">Leggings</input><br />
+			<input name="bottom" type="radio" value="Skirt" id="bottom4">Skirt</input><br />
+			<input name="bottom" type="radio" value="Dress" id="bottom5">I Picked Dress</input><br />
+		</fieldset>
+		</div>
+		
+		<!--Submit Button-->
+		 <p>
+			 <input type="submit" name="action" value="Submit" />
+			 <input type="reset" value="Reset Form" />
+		 </p>
+	 </form>
+</body>
+</html>
