@@ -1,0 +1,13 @@
+/*I use htmlcolorcodes.com to find colors I like. */
+
+.section {
+  	font-size: 18pt;
+	color: rgb(185, 134, 167);
+	font-family: cursive;
+	text-decoration: bold;
+}
+
+.select {
+	  background-color: rgb(121, 152, 171);
+	  color: white;
+}
