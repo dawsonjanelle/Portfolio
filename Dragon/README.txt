@@ -36,7 +36,7 @@ HOW TO PLAY:
 	  collect as much treasure as you can by picking up the
 	  treasure chests!
 
-	Note: There are some glitches in the game. If a dragon travels over the chest,
+	Note: There are some bugs in the game. If a dragon travels over the chest,
 	      the treasure will appear to have disappeared from its spot. It is still
 	      there, the image has just disappeared. 
 	      If you move your character to a spot a dragon was previously standing at,
