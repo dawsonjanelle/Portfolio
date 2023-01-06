@@ -1,0 +1,134 @@
+#banner {
+  	text-align: center;
+}
+
+#name {
+  	font-size: 18pt;
+	margin: 1em;
+	font-family: fantasy;
+}
+
+#banner img {
+  	width: 50%;
+}
+
+nav {
+  	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+nav li {
+  	display: inLine-block;
+	width: 1in;
+	margin-right: 5px;
+	font-size: 14pt;
+	text-align: center;
+
+	background-color: blue;
+	color: white;
+	box-shadow: black 5px 5px;
+}
+
+nav a {
+  	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+  	padding: 0;
+}
+
+nav li.active {
+  	background-color: brown;
+	border: 3px solid black;
+}
+
+nav li:hover {
+  	background-color: black;
+}
+
+.section {
+  	width: 75%;
+	margin: auto;
+	padding-bottom: 1em;
+	background-color: rgb(220, 200, 190);
+}
+
+.section h2 {
+  	background-color: white;
+	width: fit-content;
+	padding: 10px 10px;
+	box-shadow: black 5px 5px;
+
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.resume {
+  	font-size: 14pt;
+
+}
+
+.resume p {
+	margin-left: 0.5in;
+}
+
+/* Start of Adventure Game code */
+
+#images {
+	text-align: center;
+}
+
+#images img {
+	width: 50%;
+}
+
+.rooms {
+  	width: 75%;
+	margin: auto;
+	padding-bottom: 1em;
+	background-color: rbg(220, 200, 190);
+	font-family: cursive;
+}
+
+.rooms h2 {
+  	background-color: #f0dbaf; 
+	/* Thank you blog.hubspot.com for reminding me that I can use color code this way instead of rbg! */
+	/*Also, I am using https://www.tutorialrepublic.com/html-refernece/html-color-picker.php to pick out all of my colors and get the specific codes for them. */
+	width: fit-content;
+	padding: 10px 10px;
+	box-shadow: black 5px 5px;
+
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.rooms p {
+  	margin-left: 0.3in;
+}
+
+.text {
+	width: 75%;
+	margin: auto;
+	padding-bottom: 1em;
+	background-color: rgb(220, 200, 190);
+	font-family: cursive;
+}
+
+.text h2 {
+	background-color: black; 
+	width: fit-content;
+	padding: 10px 10px;
+	box-shadow: black 5px 5px;
+
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.text p {
+	margin-left: 0.3in:
+}
